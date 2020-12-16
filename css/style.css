@@ -8,8 +8,7 @@
  }
 
  body {
-    
-     
+     text-align: center;
      font-family: 'Chilanka', cursive;
  }
 
@@ -186,47 +185,24 @@
      }
      .titlelist {
          display: flex;
-         margin: -80px;
+         margin: -120px;
      }
      .toplist {
          font-size: small;
-         display: inline-flex;
-         margin-inline: -px;
-    
-       
-    
-     }
- 
-     .clearfix {
-     
-        display: grid;
-        grid-template-columns: 500px;
-    
-     }
-     .toplist{
+         display: flex;
          padding: 50px;
          margin-left: 600px;
-        
-        
-         
-        
      }
      .intro {
          display: flex;
-         margin-top: 50px;
-         word-spacing: 10px;
-        
-      
-
+         width: 0 auto;
+         margin-top: 80px;
+         word-spacing: 13px;
      }
      .profilepic {
-         width: 320px;
-         margin: 50px;
-     }
-     #lantitle {
          display: flex;
-         margin-left: 450px;
-        
-    
+         grid-template: max-content;
+         margin: 50px;
+         border-style: groove;
      }
  }
