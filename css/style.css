@@ -8,7 +8,8 @@
  }
 
  body {
-     text-align: center;
+    
+     
      font-family: 'Chilanka', cursive;
  }
 
@@ -18,8 +19,13 @@
      text-transform: uppercase;
  }
 
+ a:hover {
+     background-color: rgb(217, 255, 0);
+     font-size: large;
+     padding: 5px;
+ }
+
  .toplist li {
-     
      background-color: rgb(248, 248, 245);
      display: block;
      padding: 10px;
@@ -53,24 +59,28 @@
  .lan1, ul, li {
      margin: 10px;
  }
-.a {
-    color:rgb(240, 49, 49);
-}
-.b {
-    color:purple;
-}
-.c {
-    color:greenyellow;
-}
-.d {
-    color:rgb(23, 158, 199)
-}
-.a, .b, .c, .d {
-    font-style: oblique;
-    background-color: black;
-    padding: 20px;
-}
 
+ .a {
+     color: rgb(240, 49, 49);
+ }
+
+ .b {
+     color: purple;
+ }
+
+ .c {
+     color: greenyellow;
+ }
+
+ .d {
+     color: rgb(23, 158, 199)
+ }
+
+ .a, .b, .c, .d {
+     font-style: oblique;
+     background-color: black;
+     padding: 20px;
+ }
 
  .lan1 {
      display: block;
@@ -94,8 +104,6 @@
      margin-top: 50px;
      margin-bottom: 50px;
  }
- 
- 
 
  .footname {
      display: flex;
@@ -104,10 +112,7 @@
      padding: 25px;
  }
 
-
-
  .footer {
-   
      display: none;
  }
 
@@ -117,14 +122,12 @@
 
  @media (min-width: 768px) {
      .toplist, ul, a {
-       text-decoration: none;
+         text-decoration: none;
          display: inline-flex;
-
      }
-    
      .intro {
          text-align: left;
-  word-spacing: 5px;
+         word-spacing: 5px;
          letter-spacing: 2px;
          margin: 30px;
      }
@@ -134,62 +137,96 @@
      }
      .flex {
          display: flex;
-       flex-wrap: wrap;
+         flex-wrap: wrap;
          margin: 5px;
          padding: 5px
-        
+     }
+     #lantitle {
+         margin-top: 100px;
+         ;
      }
      .lan1 {
          margin-top: 50px;
      }
      .a, .b, .c, .d {
-        
          font-style: normal;
-        font-size: larger;
-        margin: 15px;
-        background-color: black;
-        padding: 30px;
-    }
-    .contact, p {
-        margin: 30px;
-
-    }
+         font-size: larger;
+         margin: 15px;
+         background-color: black;
+         padding: 30px;
+     }
+     .contact, p {
+         margin: 30px;
+     }
      .templates {
          width: 50%;
          padding: 20px;
          align-content: space-between;
          margin-bottom: 20px;
-         
      }
      #back1 {
          display: none;
      }
      .footer {
          float: right;
-         display:flex;
+         display: flex;
          align-items: flex-end;
          list-style-type: none;
          padding: 10px;
-           
      }
  }
 
  @media (min-width: 1024px) {
-
-
-
-
-
-
-
-  
-    .templates {
-        width: 33%;
+     .templates {
+         width: 33%;
+     }
+     .title {
+         display: flex;
+         margin-left: 50px;
+     }
+     .titlelist {
+         display: flex;
+         margin: -80px;
+     }
+     .toplist {
+         font-size: small;
+         display: inline-flex;
+         margin-inline: -px;
     
-    }
+       
+    
+     }
+ 
+     .clearfix {
+     
+        display: grid;
+        grid-template-columns: 500px;
+    
+     }
+     .toplist{
+         padding: 50px;
+         margin-left: 600px;
+        
+        
+         
+        
+     }
+     .intro {
+         display: flex;
+         margin-top: 50px;
+         word-spacing: 10px;
+        
+      
 
-
-
-
-
- } 
+     }
+     .profilepic {
+         width: 320px;
+         margin: 50px;
+     }
+     #lantitle {
+         display: flex;
+         margin-left: 450px;
+        
+    
+     }
+ }
