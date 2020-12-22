@@ -201,30 +201,26 @@
      .toplist li a {
          color: rgb(241, 84, 11);
          background-color: rgb(10, 10, 24);
-        
          border-radius: 50%;
-        
          border-color: rgb(243, 50, 227);
      }
-     .toplist a:hover{
+     .toplist a:hover {
          color: chartreuse;
          font-size: 20px;
-        border-radius: 50%;
-        border-style: groove;
-        border-color: rgb(112, 238, 238);
+         border-radius: 50%;
+         border-style: groove;
+         border-color: rgb(112, 238, 238);
      }
      .toplist li {
-
          border-radius: 30%;
          background-color: rgb(15, 14, 14);
-        
      }
      .titlelist {
          background-color: rgb(248, 198, 151);
          margin: -50px;
      }
      .toplist {
-        background-color: rgb(248, 198, 151);
+         background-color: rgb(248, 198, 151);
          display: inline-flex;
          font-size: 13px;
          margin-left: 450px;
@@ -233,21 +229,16 @@
          margin-top: 180px;
      }
      .intro {
-         
          margin-top: 150px;
          word-spacing: 15px;
      }
      .profilepic {
          margin: 80px;
      }
-     
-    footer a {
-        text-decoration: none;
-    
-
-    }
-     .footer  a:hover {
-    
+     footer a {
+         text-decoration: none;
+     }
+     .footer a:hover {
          color: rgb(217, 255, 0);
          font-size: 18px;
      }
