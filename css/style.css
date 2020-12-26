@@ -10,8 +10,7 @@
  body {
      background-color: rgb(253, 236, 227);
      text-align: center;
-     width: 98%;
-     font-family: 'Chilanka', cursive;
+     font-family: 'Raleway', sans-serif;
  }
 
  .intro {
@@ -40,9 +39,8 @@
  }
 
  .profilepic {
-     display: block;
-     margin: 0 auto;
-     width: 80%;
+     margin-top: 50px;
+     width: 65%;
  }
 
  p {
@@ -132,14 +130,15 @@
          display: inline-flex;
      }
      .intro {
-         text-align: left;
+         display: flex;
+         margin: 80px;
          word-spacing: 5px;
          letter-spacing: 2px;
-         margin: 30px;
      }
      .profilepic {
-         width: 240px;
+         display: flex;
          float: right;
+         width: 35%;
      }
      .flex {
          display: flex;
@@ -186,10 +185,6 @@
      .templates {
          width: 33%;
      }
-     .title {
-         display: inline;
-         margin-right: 750px;
-     }
      a:hover {
          color: mediumvioletred;
          background: rgb(15, 14, 14);
@@ -212,28 +207,34 @@
          border-color: rgb(112, 238, 238);
      }
      .toplist li {
-         border-radius: 30%;
+         border-radius: 50%;
          background-color: rgb(15, 14, 14);
      }
      .titlelist {
          background-color: rgb(248, 198, 151);
-         margin: -50px;
+     }
+     .title {
+         float: left;
+         margin-left: 35px;
      }
      .toplist {
+         margin-left: 250px;
          background-color: rgb(248, 198, 151);
-         display: inline-flex;
          font-size: 13px;
-         margin-left: 450px;
      }
      .lan {
          margin-top: 180px;
      }
-     .intro {
-         margin-top: 150px;
-         word-spacing: 15px;
+     .clearfix {
+         display: flex;
+         margin-right: 350px;
+         margin-top: 100px;
+         text-indent: 5%;
      }
      .profilepic {
-         margin: 80px;
+         margin-right: 50px;
+         margin-top: 150px;
+         width: 33%;
      }
      footer a {
          text-decoration: none;
